@@ -257,7 +257,7 @@ app.layout = html.Div([
                     "Video games are an extremely popular pastime. They have evolved over the years to offer players almost any type of experience."
                 ),
                 html.P(
-                    "In this Dashboard we analyze some interesting facts about the video game industry and, of course, about video game sales"
+                    "In this Dashboard I analyzed some interesting facts about the video game industry and, of course, about video game sales"
                     " and conduct this analysis based on various aspects of the games, such as Sales, Year of Release, Genre, Platform, Publisher of the Game, User Ratings and Critics' Ratings."
                 ),
                 html.Br(),
@@ -280,7 +280,7 @@ app.layout = html.Div([
                     "Let’s analyze the following bar chart that depicts gaming platforms' market share, calculated by the number of games released and by total revenue."
                 ),
                 html.P(
-                    " In the graph we can identify the platforms with the highest volume of global sales and number of games released."
+                    " In the graph it can be identified the platforms with the highest volume of global sales and number of games released."
                 ),
             html.Br(),
             ], style={"margin-left": "2%", "margin-right": "2%"}),
@@ -305,7 +305,7 @@ app.layout = html.Div([
             ),
             html.P(
                 "The boxplot chart below shows the differences in critics' ratings depending on the genre of the game. In the first tab, "
-                "we can identify the analysis according to the critics and in the second we can verify the users' evaluation."
+                "I can identify the analysis according to the critics and in the second I can verify the users' evaluation."
             ),
             html.Br(),
         ], style={"margin-left": "2%", "margin-right": "2%"}),
@@ -358,17 +358,17 @@ app.layout = html.Div([
 
         html.Div([
             html.Div([
-                html.P(['Group 1',
-                        html.Br(),
-                        html.Br(),
-                        'Roman Nalobin (m20210365), Viviane Azevedo (m20200852), Somayeh Abbasi (m20200212)'],
-                       style={'font-size': '12px'}),
+                html.P(['Roman Nalobin                        ',
             ], style={'width': '60%'}),
-
+            ]),
             html.Div([
                 html.P(['Sources ',
                         html.A('Dataset',
                                href='https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings/',
+                               target='_blank'),
+                        html.Br(),
+                        html.A('Report',
+                               href='https://drive.google.com/file/d/19RGIm_D8DQzizQZVm0DdXOMwSkRWXdno/view?usp=sharing',
                                target='_blank'),
                         ],
                        style={'font-size': '12px'})
