@@ -1,1 +1,1 @@
-web: python3 bagend.py
+web: gunicorn app:server
